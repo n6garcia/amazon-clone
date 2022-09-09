@@ -1,8 +1,11 @@
-import Home from './pages/Home';
+import React from "react";
+import Header from "./Header";
 
-const App = () => {
+function App() {
   return (
-    <Home/>
+    <div>
+      <Header />
+    </div>
   );
 }
 
