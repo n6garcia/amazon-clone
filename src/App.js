@@ -12,7 +12,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/react"
             element={
               <>
                 <Home />
@@ -20,7 +20,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/checkout"
+            path="/react/checkout"
             element={
               <>
                 <Checkout />

@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div className="header">
-      <Link to="/">
+      <Link to="/react">
         <img
           className="header_logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
@@ -38,7 +38,7 @@ function Header() {
           <span className="header_optionLineTwo"> Prime</span>
         </div>
 
-        <Link to="/checkout">
+        <Link to="/react/checkout">
           <div className="header_optionBasket">
             <ShoppingBasketIcon />
             <span className="header_optionLineTwo header_basketCount">
